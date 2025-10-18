@@ -29,3 +29,8 @@ def main():
             break
         else:
             print(f"Processando comando: {comando}")
+AUTHORIZED_ID = "dni20862592-ar"
+
+def is_authorized(user_id):
+    return user_id == AUTHORIZED_ID
+
